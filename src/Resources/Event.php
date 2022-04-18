@@ -1,7 +1,7 @@
 <?php
-namespace CoinbaseCommerce\Resources;
+namespace PrivacyGate\Resources;
 
-use CoinbaseCommerce\Resources\Operations\ReadMethodTrait;
+use PrivacyGate\Resources\Operations\ReadMethodTrait;
 
 class Event extends ApiResource implements ResourcePathInterface
 {

@@ -1,9 +1,9 @@
 <?php
-namespace CoinbaseCommerce\Tests;
+namespace PrivacyGate\Tests;
 
-use CoinbaseCommerce\Tests\GuzzleClientMock\GuzzleMockClientFactoryMethod;
+use PrivacyGate\Tests\GuzzleClientMock\GuzzleMockClientFactoryMethod;
 use PHPUnit\Framework\TestCase;
-use CoinbaseCommerce\ApiClient;
+use PrivacyGate\ApiClient;
 
 class BaseTest extends TestCase
 {

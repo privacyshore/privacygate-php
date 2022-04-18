@@ -1,15 +1,15 @@
 <?php
 namespace CoinbaseCommerce;
 
-use CoinbaseCommerce\Exceptions\AuthenticationException;
-use CoinbaseCommerce\Exceptions\InternalServerException;
-use CoinbaseCommerce\Exceptions\InvalidRequestException;
-use CoinbaseCommerce\Exceptions\ParamRequiredException;
-use CoinbaseCommerce\Exceptions\RateLimitExceededException;
-use CoinbaseCommerce\Exceptions\ResourceNotFoundException;
-use CoinbaseCommerce\Exceptions\ServiceUnavailableException;
-use CoinbaseCommerce\Exceptions\ValidationException;
-use CoinbaseCommerce\Exceptions\ApiException;
+use PrivacyGate\Exceptions\AuthenticationException;
+use PrivacyGate\Exceptions\InternalServerException;
+use PrivacyGate\Exceptions\InvalidRequestException;
+use PrivacyGate\Exceptions\ParamRequiredException;
+use PrivacyGate\Exceptions\RateLimitExceededException;
+use PrivacyGate\Exceptions\ResourceNotFoundException;
+use PrivacyGate\Exceptions\ServiceUnavailableException;
+use PrivacyGate\Exceptions\ValidationException;
+use PrivacyGate\Exceptions\ApiException;
 use GuzzleHttp\Exception\RequestException;
 
 class ApiErrorFactory

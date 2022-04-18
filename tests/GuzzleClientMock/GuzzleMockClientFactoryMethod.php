@@ -1,5 +1,5 @@
 <?php
-namespace CoinbaseCommerce\Tests\GuzzleClientMock;
+namespace PrivacyGate\Tests\GuzzleClientMock;
 
 class GuzzleMockClientFactoryMethod
 {

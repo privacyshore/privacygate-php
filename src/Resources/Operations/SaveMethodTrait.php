@@ -1,5 +1,5 @@
 <?php
-namespace CoinbaseCommerce\Resources\Operations;
+namespace PrivacyGate\Resources\Operations;
 
 trait SaveMethodTrait
 {

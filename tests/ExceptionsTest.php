@@ -1,17 +1,17 @@
 <?php
 
-namespace CoinbaseCommerce\Tests;
+namespace PrivacyGate\Tests;
 
-use CoinbaseCommerce\Exceptions\ApiException;
-use CoinbaseCommerce\Exceptions\InvalidRequestException;
-use CoinbaseCommerce\Exceptions\AuthenticationException;
-use CoinbaseCommerce\Exceptions\ParamRequiredException;
-use CoinbaseCommerce\Exceptions\ResourceNotFoundException;
-use CoinbaseCommerce\Exceptions\RateLimitExceededException;
-use CoinbaseCommerce\Exceptions\InternalServerException;
-use CoinbaseCommerce\Exceptions\ServiceUnavailableException;
-use CoinbaseCommerce\Exceptions\ValidationException;
-use CoinbaseCommerce\Resources\Charge;
+use PrivacyGate\Exceptions\ApiException;
+use PrivacyGate\Exceptions\InvalidRequestException;
+use PrivacyGate\Exceptions\AuthenticationException;
+use PrivacyGate\Exceptions\ParamRequiredException;
+use PrivacyGate\Exceptions\ResourceNotFoundException;
+use PrivacyGate\Exceptions\RateLimitExceededException;
+use PrivacyGate\Exceptions\InternalServerException;
+use PrivacyGate\Exceptions\ServiceUnavailableException;
+use PrivacyGate\Exceptions\ValidationException;
+use PrivacyGate\Resources\Charge;
 
 class ExceptionsTest extends BaseTest
 {

@@ -1,8 +1,8 @@
 <?php
-namespace CoinbaseCommerce\Tests;
+namespace PrivacyGate\Tests;
 
-use CoinbaseCommerce\ApiResourceList;
-use CoinbaseCommerce\Resources\Charge;
+use PrivacyGate\ApiResourceList;
+use PrivacyGate\Resources\Charge;
 
 class ApiCollectionListTest extends BaseTest
 {

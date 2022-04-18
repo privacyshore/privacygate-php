@@ -1,7 +1,7 @@
 <?php
-namespace CoinbaseCommerce\Exceptions;
+namespace PrivacyGate\Exceptions;
 
-class CoinbaseException extends \Exception
+class PrivacyGateException extends \Exception
 {
     public static function getClassName()
     {

@@ -1,24 +1,25 @@
 {
-  "name": "coinbase/coinbase-commerce",
-  "description": "Coinbase Commerce API library",
+  "name": "privacygate/privaygate",
+  "description": "PrivacyGate API library",
   "keywords": [
     "bitcoin",
-    "coinbase-commerce",
-    "coinbase",
+    "payment gateway",
+    "privacygate",
     "ethereum",
-    "litecoin"
+    "litecoin",
+    "bitcoin cash"
   ],
-  "homepage": "https://commerce.coinbase.com/",
+  "homepage": "https://dash.privacygate.io/",
   "type": "library",
   "license": "Apache-2.0",
   "autoload": {
     "psr-4": {
-      "CoinbaseCommerce\\": "src/"
+      "PrivacyGate\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "CoinbaseCommerce\\Tests\\": "tests/"
+      "PrivacyGate\\Tests\\": "tests/"
     }
   },
   "require": {

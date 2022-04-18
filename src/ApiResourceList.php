@@ -1,5 +1,5 @@
 <?php
-namespace CoinbaseCommerce;
+namespace PrivacyGate;
 
 class ApiResourceList extends \ArrayObject
 {

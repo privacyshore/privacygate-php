@@ -1,11 +1,11 @@
 <?php
-namespace CoinbaseCommerce\Resources;
+namespace PrivacyGate\Resources;
 
-use CoinbaseCommerce\Resources\Operations\CreateMethodTrait;
-use CoinbaseCommerce\Resources\Operations\DeleteMethodTrait;
-use CoinbaseCommerce\Resources\Operations\ReadMethodTrait;
-use CoinbaseCommerce\Resources\Operations\SaveMethodTrait;
-use CoinbaseCommerce\Resources\Operations\UpdateMethodTrait;
+use PrivacyGate\Resources\Operations\CreateMethodTrait;
+use PrivacyGate\Resources\Operations\DeleteMethodTrait;
+use PrivacyGate\Resources\Operations\ReadMethodTrait;
+use PrivacyGate\Resources\Operations\SaveMethodTrait;
+use PrivacyGate\Resources\Operations\UpdateMethodTrait;
 
 class Checkout extends ApiResource implements ResourcePathInterface
 {

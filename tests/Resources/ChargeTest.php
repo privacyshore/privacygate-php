@@ -1,9 +1,9 @@
 <?php
-namespace CoinbaseCommerce\Tests\Resources;
+namespace PrivacyGate\Tests\Resources;
 
-use CoinbaseCommerce\ApiResourceList;
-use CoinbaseCommerce\Resources\Charge;
-use CoinbaseCommerce\Tests\BaseTest;
+use PrivacyGate\ApiResourceList;
+use PrivacyGate\Resources\Charge;
+use PrivacyGate\Tests\BaseTest;
 
 class ChargeTest extends BaseTest
 {

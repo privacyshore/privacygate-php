@@ -1,5 +1,5 @@
 <?php
-namespace CoinbaseCommerce;
+namespace PrivacyGate;
 
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Client;
@@ -216,7 +216,7 @@ class ApiClient
                 [
                     'Content-Type' => 'application/json',
                     'Accept' => 'application/json',
-                    'User-Agent' => 'Coinbase ',
+                    'User-Agent' => 'PrivacyGate ',
                     'X-CC-Api-Key' => $this->getParam('apiKey'),
                     'X-CC-Version' => $this->getParam('apiVersion')
                 ],

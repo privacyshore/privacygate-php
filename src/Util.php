@@ -1,9 +1,9 @@
 <?php
-namespace CoinbaseCommerce;
+namespace PrivacyGate;
 
-use CoinbaseCommerce\Resources\Charge;
-use CoinbaseCommerce\Resources\Checkout;
-use CoinbaseCommerce\Resources\Event;
+use PrivacyGate\Resources\Charge;
+use PrivacyGate\Resources\Checkout;
+use PrivacyGate\Resources\Event;
 
 class Util
 {

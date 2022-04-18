@@ -1,9 +1,9 @@
 <?php
-namespace CoinbaseCommerce;
+namespace PrivacyGate;
 
 /**
  * Class ApiResponse
- * @package CoinbaseCommerce
+ * @package PrivacyGate
  */
 class ApiResponse
 {

@@ -1,5 +1,5 @@
 <?php
-namespace CoinbaseCommerce\Exceptions;
+namespace PrivacyGate\Exceptions;
 
 class ResourceNotFoundException extends ApiException
 {

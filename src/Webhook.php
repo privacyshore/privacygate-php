@@ -1,9 +1,9 @@
 <?php
 namespace CoinbaseCommerce;
 
-use CoinbaseCommerce\Exceptions\InvalidResponseException;
-use CoinbaseCommerce\Exceptions\SignatureVerificationException;
-use CoinbaseCommerce\Resources\Event;
+use PrivacyGate\Exceptions\InvalidResponseException;
+use PrivacyGate\Exceptions\SignatureVerificationException;
+use PrivacyGate\Resources\Event;
 
 class Webhook
 {

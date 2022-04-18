@@ -1,7 +1,7 @@
 <?php
-namespace CoinbaseCommerce\Exceptions;
+namespace PrivacyGate\Exceptions;
 
-class InvalidResponseException extends CoinbaseException
+class InvalidResponseException extends PrivacyGateException
 {
     public function __construct($message = '', $body = '')
     {

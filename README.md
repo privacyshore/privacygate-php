@@ -1,4 +1,3 @@
-[![CircleCI](https://circleci.com/gh/coinbase/coinbase-commerce-php/tree/master.svg?style=svg)](https://circleci.com/gh/coinbase/coinbase-commerce-php/tree/master)
 # PrivacyGate
 **Note: This repository is not actively maintained.**
 
@@ -23,15 +22,15 @@ The official PHP library for the [PrivacyGate API](https://privacygate.io/docs/)
 PHP  version 5.4 and above are supported.
 
 ## Documentation
-For more details visit [Coinbase API docs](https://privacygate.io/docs/).
+For more details visit [PrivacyGate API docs](https://privacygate.io/docs/).
 
-To start using this library register an account on [Coinbase Commerce](https://dash.privacygate.io/signup).
+To start using this library register an account on [PrivacyGate](https://dash.privacygate.io/signup).
 You will find your ``API_KEY`` from User Settings.
 
 Next initialize a ``Client`` for interacting with the API. The only required parameter to initialize a client is ``apiKey``, however, you can also pass in ``baseUrl``, ``apiVersion``  and ``timeout``.
 Parameters can be also be set post-initialization:
 ``` php
-use CoinbaseCommerce\ApiClient;
+use PrivacyGate\ApiClient;
 
 //Make sure you don't store your API Key in your source code!
 $apiClientObj = ApiClient::init(<API_KEY>);
@@ -68,11 +67,11 @@ All errors that occur during any interaction with the API will be raised as exce
 
 Install with ``composer``:
 ``` sh
-composer require coinbase/coinbase-commerce
+composer require privacygate/privacygate
 ```
 ## Usage
 ``` php
-use CoinbaseCommerce\ApiClient;
+use PrivacyGate\ApiClient;
 
 //Make sure you don't store your API Key in your source code!
 ApiClient::init('API_KEY');
@@ -83,7 +82,7 @@ More examples on how to use checkouts can be found in the [`examples/Resources/C
 
 ### Load checkout resource class
 ``` php
-use CoinbaseCommerce\Resources\Checkout;
+use PrivacyGate\Resources\Checkout;
 ```
 ### Retrieve
 ``` php
@@ -191,12 +190,12 @@ $allCheckouts = Checkout::getAll($params);
 
 ```
 ## Charges
-[Charges API docs](https://commerce.coinbase.com/docs/api/#charges)
+[Charges API docs](https://dash.privacygate.io/docs/#charges)
 More examples on how to use charges can be found in the [`examples/Resources/ChargeExample.php`](examples/Resources/ChargeExample.php) file
 
 ### Load charge resource class
 ``` php
-use CoinbaseCommerce\Resources\Charge;
+use PrivacyGate\Resources\Charge;
 ```
 ### Retrieve
 ``` php
@@ -270,7 +269,7 @@ More examples on how to use events can be found in the [`examples/Resources/Even
 
 ### Load event resource class
 ``` php
-use CoinbaseCommerce\Resources\Event;
+use PrivacyGate\Resources\Event;
 ```
 ### Retrieve
 ``` php
@@ -294,7 +293,7 @@ $allEvents = Event::getAll();
 ## Warnings
 It's prudent to be conscious of warnings. The library will log all warnings to a standard PSR-3 logger if one is configured.
 ``` php
-use CoinbaseCommerce\ApiClient;
+use PrivacyGate\ApiClient;
 
 //Make sure you don't store your API Key in your source code!
 $apiClientObj = ApiClient::init(<API_KEY>);
@@ -302,11 +301,11 @@ $apiClientObj->setLogger($logger);
 ```
 
 ## Webhooks
-Coinbase Commerce signs the webhook events it sends to your endpoint, allowing you to validate and verify that they weren't sent by someone else.
+PrivacyGate signs the webhook events it sends to your endpoint, allowing you to validate and verify that they weren't sent by someone else.
 You can find a simple example of how to use this with Express in the [`examples/Webhook`](examples/Webhook) folder
 ### Verify Signature header
 ``` php
-use CoinbaseCommerce\Webhook;
+use PrivacyGate\Webhook;
 
 try {
     Webhook::verifySignature($signature, $body, $sharedSecret);

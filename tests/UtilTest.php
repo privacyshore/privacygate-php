@@ -1,8 +1,8 @@
 <?php
-namespace CoinbaseCommerce\Tests;
+namespace PrivacyGate\Tests;
 
 use PHPUnit\Framework\TestCase;
-use CoinbaseCommerce\Util;
+use PrivacyGate\Util;
 
 class UtilTest extends TestCase
 {

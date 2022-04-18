@@ -1,8 +1,8 @@
 <?php
-namespace CoinbaseCommerce\Resources\Operations;
+namespace PrivacyGate\Resources\Operations;
 
-use CoinbaseCommerce\Util;
-use CoinbaseCommerce\ApiResourceList;
+use PrivacyGate\Util;
+use PrivacyGate\ApiResourceList;
 
 trait ReadMethodTrait
 {

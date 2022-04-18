@@ -1,7 +1,7 @@
 <?php
-namespace CoinbaseCommerce\Exceptions;
+namespace PrivacyGate\Exceptions;
 
-class SignatureVerificationException extends CoinbaseException
+class SignatureVerificationException extends PrivacyGateException
 {
     public function __construct($signature, $payload)
     {

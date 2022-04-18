@@ -1,7 +1,7 @@
 <?php
-namespace CoinbaseCommerce\Tests;
+namespace PrivacyGate\Tests;
 
-use CoinbaseCommerce\Resources\ApiResource;
+use PrivacyGate\Resources\ApiResource;
 use PHPUnit\Framework\TestCase;
 
 class ApiResourceTest extends TestCase

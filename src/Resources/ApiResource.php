@@ -1,9 +1,9 @@
 <?php
-namespace CoinbaseCommerce\Resources;
+namespace PrivacyGate\Resources;
 
-use CoinbaseCommerce\ApiClient;
-use CoinbaseCommerce\ApiResponse;
-use CoinbaseCommerce\Util;
+use PrivacyGate\ApiClient;
+use PrivacyGate\ApiResponse;
+use PrivacyGate\Util;
 
 class ApiResource extends \ArrayObject
 {

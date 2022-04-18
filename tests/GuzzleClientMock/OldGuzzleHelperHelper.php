@@ -1,5 +1,5 @@
 <?php
-namespace CoinbaseCommerce\Tests\GuzzleClientMock;
+namespace PrivacyGate\Tests\GuzzleClientMock;
 
 use GuzzleHttp\Subscriber\Mock;
 use GuzzleHttp\Subscriber\History;

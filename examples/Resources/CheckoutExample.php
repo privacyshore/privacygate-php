@@ -1,12 +1,12 @@
 <?php
 require_once __DIR__ . "/vendor/autoload.php";
 
-use CoinbaseCommerce\ApiClient;
-use CoinbaseCommerce\Resources\Checkout;
+use PrivacyGate\ApiClient;
+use PrivacyGate\Resources\Checkout;
 
 /**
  * Init ApiClient with your Api Key
- * Your Api Keys are available in the Coinbase Commerce Dashboard.
+ * Your Api Keys are available in the PrivacyGate Dashboard.
  * Make sure you don't store your API Key in your source code!
  */
 ApiClient::init("API_KEY");

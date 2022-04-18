@@ -1,10 +1,10 @@
 {
-    "name": "coinbase/example-coinbase-commerce-webhook",
-    "description": "Examples of using Coinbase Commerce Webhook verification",
+    "name": "privacygate/example-privacygate-webhook",
+    "description": "Examples of using PrivacyGate Webhook verification",
     "type": "project",
     "license": "MIT",
     "minimum-stability": "stable",
     "require": {
-        "coinbase/coinbase-commerce": "^1.0.0"
+        "privacygate/privacygate": "^1.0.0"
     }
 }

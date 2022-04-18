@@ -1,5 +1,5 @@
 <?php
-namespace CoinbaseCommerce\Resources;
+namespace PrivacyGate\Resources;
 
 interface ResourcePathInterface
 {

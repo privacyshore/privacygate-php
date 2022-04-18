@@ -1,7 +1,7 @@
 <?php
-namespace CoinbaseCommerce\Tests;
+namespace PrivacyGate\Tests;
 
-use CoinbaseCommerce\ApiClient;
+use PrivacyGate\ApiClient;
 use PHPUnit\Framework\TestCase;
 
 class ApiClientTest extends TestCase

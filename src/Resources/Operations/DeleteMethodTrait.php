@@ -1,7 +1,7 @@
 <?php
-namespace CoinbaseCommerce\Resources\Operations;
+namespace PrivacyGate\Resources\Operations;
 
-use CoinbaseCommerce\Util;
+use PrivacyGate\Util;
 
 trait DeleteMethodTrait
 {

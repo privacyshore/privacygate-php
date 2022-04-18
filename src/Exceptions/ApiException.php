@@ -1,7 +1,7 @@
 <?php
-namespace CoinbaseCommerce\Exceptions;
+namespace PrivacyGate\Exceptions;
 
-class ApiException extends CoinbaseException
+class ApiException extends PrivacyGateException
 {
     private $request;
 

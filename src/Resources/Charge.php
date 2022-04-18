@@ -1,10 +1,10 @@
 <?php
-namespace CoinbaseCommerce\Resources;
+namespace PrivacyGate\Resources;
 
-use CoinbaseCommerce\Resources\Operations\CreateMethodTrait;
-use CoinbaseCommerce\Resources\Operations\ReadMethodTrait;
-use CoinbaseCommerce\Resources\Operations\SaveMethodTrait;
-use CoinbaseCommerce\Util;
+use PrivacyGate\Resources\Operations\CreateMethodTrait;
+use PrivacyGate\Resources\Operations\ReadMethodTrait;
+use PrivacyGate\Resources\Operations\SaveMethodTrait;
+use PrivacyGate\Util;
 
 class Charge extends ApiResource implements ResourcePathInterface
 {

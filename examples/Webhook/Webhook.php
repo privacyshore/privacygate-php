@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . "/vendor/autoload.php";
 
-use CoinbaseCommerce\Webhook;
+use PrivacyGate\Webhook;
 
 /**
  * To run this example please read README.md file
