@@ -1,5 +1,5 @@
 <?php
-namespace CoinbaseCommerce;
+namespace PrivacyGate;
 
 use PrivacyGate\Exceptions\AuthenticationException;
 use PrivacyGate\Exceptions\InternalServerException;

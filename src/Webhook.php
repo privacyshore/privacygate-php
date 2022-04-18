@@ -1,5 +1,5 @@
 <?php
-namespace CoinbaseCommerce;
+namespace PrivacyGate;
 
 use PrivacyGate\Exceptions\InvalidResponseException;
 use PrivacyGate\Exceptions\SignatureVerificationException;
