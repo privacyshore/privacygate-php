@@ -1,8 +1,8 @@
 [![CircleCI](https://circleci.com/gh/coinbase/coinbase-commerce-php/tree/master.svg?style=svg)](https://circleci.com/gh/coinbase/coinbase-commerce-php/tree/master)
-# Coinbase Commerce
+# PrivacyGate
 **Note: This repository is not actively maintained.**
 
-The official PHP library for the [Coinbase Commerce API](https://commerce.coinbase.com/docs/).
+The official PHP library for the [PrivacyGate API](https://privacygate.io/docs/).
 
 # Table of contents
 
@@ -23,9 +23,9 @@ The official PHP library for the [Coinbase Commerce API](https://commerce.coinba
 PHP  version 5.4 and above are supported.
 
 ## Documentation
-For more details visit [Coinbase API docs](https://commerce.coinbase.com/docs/api/).
+For more details visit [Coinbase API docs](https://privacygate.io/docs/).
 
-To start using this library register an account on [Coinbase Commerce](https://commerce.coinbase.com/signup).
+To start using this library register an account on [Coinbase Commerce](https://dash.privacygate.io/signup).
 You will find your ``API_KEY`` from User Settings.
 
 Next initialize a ``Client`` for interacting with the API. The only required parameter to initialize a client is ``apiKey``, however, you can also pass in ``baseUrl``, ``apiVersion``  and ``timeout``.
@@ -78,7 +78,7 @@ use CoinbaseCommerce\ApiClient;
 ApiClient::init('API_KEY');
 ```
 ## Checkouts 
-[Checkouts API docs](https://commerce.coinbase.com/docs/api/#checkouts)
+[Checkouts API docs](https://api.privacygate.io/docs/api/#checkouts)
 More examples on how to use checkouts can be found in the [`examples/Resources/CheckoutExample.php`](examples/Resources/CheckoutExample.php) file
 
 ### Load checkout resource class
@@ -265,7 +265,7 @@ if ($chargeObj) {
 ```
 
 ## Events
-[Events API Docs](https://commerce.coinbase.com/docs/api/#events)
+[Events API Docs](https://privacygate.io/docs/#events)
 More examples on how to use events can be found in the [`examples/Resources/EventExample.php`](examples/Resources/EventExample.php) file
 
 ### Load event resource class
