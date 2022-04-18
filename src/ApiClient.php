@@ -16,7 +16,7 @@ class ApiClient
      */
     private $params = [
         self::API_VERSION_PARAM => null,
-        self::BASE_API_URL_PARAM => 'https://api.commerce.coinbase.com/',
+        self::BASE_API_URL_PARAM => 'https://api.privacygate.io/',
         self::API_VERSION_PARAM => '2018-03-22',
         self::TIMEOUT_PARAM => 3
     ];
